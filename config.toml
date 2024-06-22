@@ -40,6 +40,8 @@ arch = "arm64-v8a"
 build-mode = "module"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+included-patches = "'Custom branding' 'Change header'"
+excluded-patches = "'Always repeat' 'Disable zoom haptics' 'Enable debugging' 'Tablet mini player' 'Alternative thumbnails' 'Return YouTube Dislike' 'Wide searchbar' 'Enable tablet layout' 'Hide captions button' 'Theme' 'Hide endscreen cards' 'Disable fullscreen ambient mode' 'Comments' 'Hide seekbar' 'Disable rolling number animations' 'Hide Shorts components' 'Hide info cards' 'Hide filter bar' 'Disable suggested video end screen' 'Hide timestamp' 'Custom player overlay opacity'"
 
 [Twitter]
 build-mode = "apk"
